@@ -1,5 +1,18 @@
+/*
+
+Designed by @Nutn0n | Blogger and Web Developer
+Compiled Date Aug 11, 2016 ( on MacOS 10.11 Beta )
+
+Copyright 2016 - Nattanon Dungsunenarn. All rights reserved.
+Rights belong to STOU after uploaded to STOU server | source on github.com/nutn0n
+
+**  License only for STOU Award 2016 | Commercial use are not permitted by developers **
+
+*/
 
 
+@import url('https://fonts.googleapis.com/css?family=Prompt:400,200,100,300,500&subset=thai,latin');
+/*  Copyrights 2016 - Cadson Demak | All rights reserved - Typeface are open sources */
 
 html {overflow-y: scroll;}
 body{
@@ -14,15 +27,19 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 input, button, textarea, select{
 	-webkit-appearance:none;
  	-webkit-border-radius:0px;
   	border-radius:0px;
 }
+
+
 a, a:hover, a:focus{
 	color: 								inherit;
 	text-decoration: 					none;
 }
+
 q:after, q:before{
 	content: 		none;
 }
@@ -142,14 +159,17 @@ main{
 .brand img{
 	height: 100%;
 }
+
 .nav-item a:hover, .nav-item a:focus{
 	color: 								#0F99B2;
 }
+
 nav{
 	margin-top: 						4px;
 	padding-right: 						0 !important;
 	text-align: 						right;
 }
+
 .nav-item{
   transform: translateY(6px);
 	font-size: 							16px;
@@ -335,11 +355,11 @@ p{
 .go-to.sm {width: 37px; height: 27px;}
 .slider-home .go-to.sm {margin-top: 22px;}
 .slider-home .first-post {margin-bottom: 57px;}
-.slider-home .first-post p {padding-right: 43px; font-size: 16px;}
+.slider-home .first-post p {padding-right: 43px; font-size: 18px;}
 .first-post .about_pic .about_pic_text p {padding-right: 0px;}
 .slider-home .block h2 {margin-bottom: 28px;}
 .post-nav {padding-top: 18px;}
-.image-post h3.sz-14 {font-size: 14px;}
+.image-post h3.sz-14 {font-size: 15px;}
 .lightbox:hover img {opacity: 0.7;}
 .new-service h2 { margin-bottom: 8px;}
 .new-service .footer-soc {position: relative; padding-top: 10px;}
@@ -350,7 +370,7 @@ p{
 .about-one .block-desc h6 {font-size: 12px; line-height: 18px;  color: #555;}
 .about-one .block-desc .small {font-size: 11px;}
 .about-one .block.type-2 {margin: 0px;}
-.f13 {font-size: 13px; line-height: 21px;  font-weight: 400;}
+.f13 {font-size: 15px; line-height: 23px;  font-weight: 500;}
 .layer {position: absolute; left: 0px; top: 0px; background: rgba(85, 85, 85, 0.8); width: 100%; height: 100%; margin-top: -20px; opacity: 0;-webkit-transition: all 0.5s ease-out;-moz-transition:	all 0.5s ease-out;-o-transition: all 0.5s ease-out;transition:all  0.5s ease-out;}
 .vertical-align {top: 50%; transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%); position: absolute; text-align: center; width: 100%; color: #fff;}
 .layer h4 {font-size: 20px; line-height: 24px; font-weight: 400; margin: 0px;}
@@ -457,7 +477,7 @@ float: none; display: block; margin: 35px auto 0px;}
 }
 
 h3{
-	font-size: 							16px;
+	font-size: 							18px;
 	margin-bottom: 						15px;
 	font-weight: 						300;
 }
@@ -498,7 +518,7 @@ h3{
 }
 h2{
 	margin-top: 						7px;
-	font-size: 							24px;
+	font-size: 							26px;
 	line-height: 						29px;
 	font-weight: 						400;
 }
@@ -528,6 +548,7 @@ h2{
      -o-transition: 	all ease-out 0.5s;
      transition: 		all ease-out 0.5s;
      cursor: 			pointer;
+		 height:90%;
 }
 .about_pic .about_pic_text{
 	position: absolute;
@@ -621,12 +642,12 @@ h2{
 .our_service h3{
 	font-weight: 						200;
 	text-transform: 					uppercase;
-	font-size: 							14px;
+	font-size: 							16px;
 	margin-bottom: 						5px;
 }
 .our_service .col-md-3 p{
 	font-weight: 						200;
-	font-size: 							12px;
+	font-size: 							15px;
 }
 
 .our_service .icon-entry{
@@ -671,7 +692,7 @@ h2{
 	text-transform: 					uppercase;
 }
 .get_news p{
-	font-size: 							14px;
+	font-size: 							16px;
 	display: 							inline;
 	color: 								#FFF;
 }
@@ -734,7 +755,7 @@ padding-top: 22px;
 }
 .pricing .price-blocks p{
 	color: 								#262626;
-	font-size: 12px;
+	font-size: 15px;
 }
 .most {margin-top: 5px; position: relative;}
 .pricing .price-blocks{
@@ -1134,6 +1155,13 @@ border-bottom: 							none;
 .clients .clients-logos{
 	text-align: left;
 }
+
+.clients .clients-logos img{
+	width:60px;
+	height:60px;
+	margin-top:20px;
+}
+
 
 
 .clients.style-2 .clients-logos{

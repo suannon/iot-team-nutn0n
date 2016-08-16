@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Internet of Things - อุปกรณ์</title>
+		<meta charset="utf-8"																											>
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge"                															>
+    	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"    														>
+    	<meta name="viewport" content="width=device-width, initial-scale=1" 															>
+		<link rel="stylesheet" href="style/bootstrap.min.css"																			>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'		>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"						>
+		<link rel="stylesheet" href="style/icon.css" 																					>
+		<link rel="stylesheet" href="style/animate.css" 																				>
+		<link rel="stylesheet" href="style/animsition.min.css" 																			>
+		<link rel="stylesheet" href="style/idangerous.swiper.css" 																		>
+		<link rel="stylesheet" href="style/stylesheet.css" 																				>
+		<!--[if lt IE 9]>
+		    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+
+	<body class="animsition" data-animsition-in="zoom-in" data-animsition-out="zoom-out">
+
+		<!--
+
+		THE HEADER
+
+		-->
+
+		<header>
+			<div class="container">
+				<div class="for_con">
+					<div class="brand">
+						<a href=""><img src="img/logo.png" alt="logo"></a>
+					</div>
+					<div class="toggle_nav"><button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button></div>
+					<nav class="navigation">
+						<div class="nav-item"><a class="animsition-link" href="infographic.html">ข้อมูลทั่วไป</a></div>
+						<div class="nav-item"><a class="animsition-link" href="livingroom.html">ห้องนั่งเล่น</a></div>
+							<div class="nav-item"><a class="animsition-link" href="kitchen.html">ห้องครัว</a></div>
+							<div class="nav-item"><a class="animsition-link" href="outdoor.html">นอกบ้าน</a></div>
+							<div class="nav-item"><a class="animsition-link" href="bedroom.html">ห้องนอน</a></div>
+							<div class="nav-item"><a class="animsition-link" href="developer.html">นักพัฒนา</a></div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="new-service modern-style">
+			<div class="container">
+				<div class="photo">
+					<img class="img-responsive" src="device/hue.jpeg" alt="">
+					<a href="index.html#news" class="go-to-back"></a>
+				</div>
+				<h2>Philip HUE</h2>
+				<p class="yellow">$199 Starter Kit</p>
+				<br>
+				<p>
+					Philips Hue หลอดไฟอัจฉริยะที่จะทำให้บรรยากาศในบ้านของคุณดูดีและน่าอยู่มากขึ้น โดยคุณสามารถเปลี่ยนสีโดยสั่งการผ่าน Application ได้โดยตรง นอกจากนี้ยังสามารถตั้งเวลาเปิดปิดไฟได้อีกด้วย
+				</p>
+
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+			<!---	<div class="footer-soc">
+					<a  href="#">
+						<i class="fa fa-facebook"></i>
+					</a>
+				     <a href="#">
+				     	<i class="fa fa-twitter"></i>
+				     </a>
+				     <a href="#">
+				     	<i class="fa fa-google-plus"></i>
+				     </a>
+				     <a href="#">
+				     	<i class="fa fa-behance"></i>
+				     </a>
+				     <a href="#">
+				     	<i class="fa fa-dribbble"></i>
+				     </a>
+				     <a href="#">
+				     	<i class="fa fa-instagram"></i>
+				     </a>
+				</div>-->
+				<p style="color:#fafafa;">Designed by</p><p class="yellow">@Nutn0n</p><p  style="color:#fafafa;"> - Blogger and Web Developer </p>
+				<a href="http://www.nutn0n.com" class="yellow">www.nutn0n.com</a>
+			</div>
+		</footer>
+
+		<!-- SCRIPTS -->
+
+			<!-- JQUERY -->
+		<script src="script/jquery-2.1.4.min.js"></script>
+		    <!-- a swiper -->
+		<script src="script/idangerous.swiper.min.js"></script>
+			<!-- animations -->
+		<script src="script/wow.min.js"></script>
+			<!-- lightbox -->
+		<script src="script/imagelightbox.min.js"></script>
+			<!-- loader -->
+		<script src="script/jquery.animsition.min.js"></script>
+			<!-- MY SCRIPT -->
+		<script src="script/script.js"></script>
+			<!-- animation number library -->
+			<script src="script/jquery.animateNumber.min.js"></script>
+			<!-- animation settings -->
+
+		<script>
+		    var wow = new WOW(
+		        {
+		            boxClass:     'wow',      // animated element css class (default is wow)
+		            animateClass: 'animated', // animation css class (default is animated)
+		            offset:       100,          // distance to the element when triggering the animation (default is 0)
+		            mobile:       false,       // trigger animations on mobile devices (default is true)
+		            live:         true,       // act on asynchronously loaded content (default is true)
+		            callback:     function(box) {
+		              // the callback is fired every time an animation is started
+		              // the argument that is passed in is the DOM node being animated
+		            }
+		        }
+		    );
+		    $(window).load(function(){
+		        wow.init();
+		    });
+		</script>
+
+	</body>
+</html>
